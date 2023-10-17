@@ -5439,6 +5439,16 @@
 
 <script>
     /* https://timezone.abstractapi.com/v1/current_time/?api_key=6ea5b4b8836b45d8bb1dc173ed180a55&location=brazilia  */
+    async function getDate(place){
+    const url = `https://timezone.abstractapi.com/v1/current_time/?api_key=6ea5b4b8836b45d8bb1dc173ed180a55&location=b${place}`
+    
+    const res= await fetch(url)
+    data = await res.json()
+    time = data.datetime
+    
+
+    
+    }
 </script>
 
 </html>

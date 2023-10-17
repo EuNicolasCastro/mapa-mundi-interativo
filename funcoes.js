@@ -6,7 +6,7 @@ async function getData(place){
     data = await res.json()
     time = data.datetime
     document.getElementById("time").style.opacity = 1
-    document.getElementById("time").innerText = `${place}`
+    document.getElementById("time").innerText = `This is ${place}`
     }
 
     document.querySelectorAll('.allPaths').forEach(e=>{

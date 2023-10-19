@@ -25,7 +25,7 @@ async function getData(place){
         })
         
         e.addEventListener("mouseleave",function(){
-            e.style.fill="#ececec"
+            e.style.fill="#aaaaaa"
             document.getElementById("name").style.opacity=0
         })
 
